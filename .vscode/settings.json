@@ -1,3 +1,17 @@
 {
-  "cSpell.words": ["loglevel"]
+  "cSpell.words": ["loglevel"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "*.lock": true,
+    ".*": true,
+    ".vscode*": false,
+    "tsconfig*": true,
+    "vite*": true
+  },
+  "explorerExclude.backup": {}
 }
