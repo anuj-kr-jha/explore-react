@@ -1,23 +1,6 @@
-**Component**
+# Explore React
 
-React components are JavaScript functions that return markup.
+## Table of Contents
 
-- It can be nested into other component
-- must start with capital letter(PascalCase), to distinguish easily b/w react component(PascalCases) and html tag(lowercased)
-
-```javascript
-// App.tsx
-
-function ButtonComponent() {
-  return <button>I'm a button</button>;
-}
-
-function App() {
-  return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <ButtonComponent />
-    </div>
-  );
-}
-```
+1. [Component](./src/1_component/readme.md)
+2. [Jsx/Tsx](./src/2_jsx/readme.md)
