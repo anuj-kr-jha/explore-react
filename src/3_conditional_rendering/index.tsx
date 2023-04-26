@@ -1,8 +1,13 @@
 // change it to false to see difference
-const isLoggedIn = true; // this is just for demonstration. In real-world we will have this kind of stuff in runtime
+const isLoggedIn = false; // this is just for demonstration. In real-world we will have this kind of stuff in runtime
 
 function Module() {
-  return <div>{isLoggedIn ? <p>Dashboard</p> : <p>loginPage</p>}</div>;
+  // let content: JSX.Element;
+  // if (isLoggedIn) content = <p>Dashboard</p>;
+  // else content = <p>LoginPage</p>;
+  // return <div>{content}</div>;
+  // or
+  return <div>{isLoggedIn ? <p>Dashboard</p> : <p>LoginPage</p>}</div>;
 }
 
 export default Module;
