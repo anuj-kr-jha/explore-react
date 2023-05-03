@@ -1,6 +1,19 @@
 {
-  "cSpell.words": ["Hedy", "Lamarr", "loglevel"],
+  "cSpell.words": ["Hedy", "Lamarr", "loglevel", "updation"],
   "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+    "*.lock": false,
+    ".*": false,
+    ".vscode*": false,
+    "tsconfig*": false,
+    "vite*": false
+  },
+  "explorerExclude.backup": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -12,6 +25,5 @@
     ".vscode*": false,
     "tsconfig*": true,
     "vite*": true
-  },
-  "explorerExclude.backup": {}
+  }
 }
